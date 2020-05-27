@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30" started-at="2020-05-19T09:54:51 MST" finished-at="2020-05-19T09:54:51 MST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30" started-at="2020-05-19T09:54:51 MST" finished-at="2020-05-19T09:54:51 MST">
+      <class name="com.syntax.test.TestINGtest">
+        <test-method status="PASS" signature="Hello()[pri:0, instance:com.syntax.test.TestINGtest@4b4523f8]" name="Hello" duration-ms="6" started-at="2020-05-19T09:54:51 MST" finished-at="2020-05-19T09:54:51 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hello -->
+      </class> <!-- com.syntax.test.TestINGtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
