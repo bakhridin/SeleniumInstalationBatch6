@@ -15,7 +15,9 @@ public class BaseClass {
 	
 	 public static WebDriver setUp() {
 		 
+		
 		 ConfigsReader.readProperties(Constans.CONFIGURATIONS_FILEPATH);
+		 
 		 System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "true");
 		 
 		 switch(ConfigsReader.getProperty("browser").toLowerCase()) {
@@ -38,6 +40,7 @@ public class BaseClass {
 		 driver.manage().window().maximize();
 		 driver.manage().timeouts().implicitlyWait(Constans.IMPLISIT_WAIT_TIME, TimeUnit.SECONDS);
 		 driver.get(ConfigsReader.getProperty("url"));
+		 
 		 return driver;
 		 
 	 }
